@@ -1,0 +1,44 @@
+.card {
+    padding: 8px 18px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    color: #868E96;
+}
+.card div p {
+    color: #212529;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+.card div span {
+    color: #212529;
+}
+.trash--icon {
+    color: #868E96;
+}
+.card button {
+    border: none;
+    cursor: pointer;
+}
+.green {
+    border-left: 5px solid #03B898;
+    padding: 8px 18px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.grey {
+    border-left: 5px solid #E9ECEF;
+    padding: 8px 18px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}

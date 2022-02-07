@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    background: #F8F9FA;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 39px;
+}
+.title {
+    display: flex;
+}
+.title span {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 5px;
+    color: #FD377E;
+}
+.title p {
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 5px;
+    color: #212529;
+}
+header button {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #868E96;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    margin-left: 630px;
+}

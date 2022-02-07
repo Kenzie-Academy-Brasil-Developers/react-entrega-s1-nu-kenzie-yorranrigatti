@@ -1,0 +1,33 @@
+section nav {
+    margin-bottom: 24px;
+}
+.list--header {
+    display: flex;
+}
+section div span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    color: #212529;
+    margin-right: 80px;
+}
+section nav button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #868E96;
+    border-radius: 8px;
+    background: #E9ECEF;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+}
+.todos {
+    background: #FD377E;
+    color: #fff;
+}
+.cards {
+    height: 350px;
+    overflow-y: auto;
+}

@@ -1,0 +1,15 @@
+.total--card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 260px;
+    padding: 10px 20px;
+    background: #E34981;
+    margin-top: 22px;
+}
+.total--card span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
