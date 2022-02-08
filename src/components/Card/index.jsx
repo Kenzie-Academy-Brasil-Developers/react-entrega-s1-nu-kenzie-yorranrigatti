@@ -1,9 +1,9 @@
 import "./styles.css";
 import { FaTrash } from "react-icons/fa";
 
-export function Card({ transaction }) {
+export function Card({ transaction, className}) {
   return (
-    <div className="card">
+    <div className={className}>
       <div>
         <p>{transaction.description}</p>
         <div>

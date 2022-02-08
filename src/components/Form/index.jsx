@@ -2,7 +2,7 @@ import "./styles.css";
 import { useState } from "react";
 
 export function Form({ listTransactions, setListTransactions }) {
-  const [valueInput, setValueInput] = useState("");
+  const [valueInput, setValueInput] = useState();
   const [descInput, setDescInput] = useState("");
   const [valueType, setValueType] = useState("entrada");
 
@@ -44,7 +44,8 @@ export function Form({ listTransactions, setListTransactions }) {
         </select>
       </div>
       <button type="submit" onClick={(evt) => {evt.preventDefault()
-         handleInfos(descInput, valueInput, valueType)}}>Inserir valor</button>
+        if(descInput !== ""){handleInfos(descInput, valueInput, valueType)}
+         }}>Inserir valor</button>
     </form>
   );
 }

@@ -1,4 +1,3 @@
-import react from "react";
 import { Card } from "../Card";
 import "./styles.css";
 
@@ -18,7 +17,7 @@ export function List({ listTransactions }) {
           transaction.type === "entrada" ? (
             <Card transaction={transaction} key={index} className="green" />
           ) : (
-            <Card transaction={transaction} key={index} className="gray" />
+            <Card transaction={transaction} key={index} className="grey" />
           )
         )}
       </div>

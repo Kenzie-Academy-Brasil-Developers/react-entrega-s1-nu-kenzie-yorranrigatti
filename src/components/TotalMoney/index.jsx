@@ -1,8 +1,12 @@
-import "./styles.css"
+import "./styles.css";
 
 export function TotalMoney({ listTransactions }) {
   const result = listTransactions.reduce((acc, cur) => {
-    return acc + cur.value;
+    if (cur.type === "entrada") {
+      return acc + Number(cur.value);
+    } else {
+      return acc - Number(cur.value);
+    }
   }, 0);
 
   return (

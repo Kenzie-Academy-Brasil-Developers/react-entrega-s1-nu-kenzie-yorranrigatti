@@ -7,13 +7,20 @@ header {
     box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
     margin-bottom: 39px;
 }
+.flex--div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
 .title {
     display: flex;
 }
 .title span {
     font-weight: bold;
     font-size: 24px;
-    margin-right: 5px;
+    margin: 0 5px 0 20px;
     color: #FD377E;
 }
 .title p {
@@ -30,5 +37,10 @@ header button {
     padding: 9px;
     border: none;
     cursor: pointer;
-    margin-left: 630px;
+    margin-right: 20px;
+}
+@media (min-width:768px){
+    header {
+        width: 100%;
+    }
 }
